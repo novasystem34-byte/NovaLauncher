@@ -1,5 +1,5 @@
 # NovaLauncher
-
+[![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal)](https://paypal.me/Alaaabushamaa)
 NovaLauncher هو lanzar/launcher خاص للألعاب على نظام Windows، مصمم ليكون خفيفًا على النظام ويمنح كل الموارد المتاحة للعبة أثناء التشغيل.
 
 تم بناء المشروع باستخدام WPF على .NET 8، ويجمع بين مكتبة ألعابك، تتبع وقت اللعب، التشغيل داخل الخلفية، وسهولة إدارة كل لعبة من واجهة واحدة.
