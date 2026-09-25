@@ -1,0 +1,23 @@
+<Window x:Class="NovaLauncher.InputDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nova Launcher"
+        Height="200" Width="420"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        FlowDirection="RightToLeft"
+        Background="{StaticResource BrushBackgroundDarkest}">
+    <Grid Margin="24">
+        <StackPanel>
+            <TextBlock x:Name="PromptText" TextWrapping="Wrap" Margin="0,0,0,12" FontSize="14"/>
+            <TextBox x:Name="InputTextBox" Padding="8,6"
+                     Background="{StaticResource BrushBackgroundElevated}"
+                     Foreground="{StaticResource BrushTextPrimary}"
+                     BorderBrush="{StaticResource BrushBorder}" Margin="0,0,0,18"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="موافق" Style="{StaticResource NovaAccentButton}" Click="OnOkClick" Margin="0,0,10,0"/>
+                <Button Content="إلغاء" Style="{StaticResource NovaButton}" Click="OnCancelClick"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
